@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Tablerow = ({user}) => {
-const {name, id, email} = user
+function Tablerow({ user }) {
+    const { name, id, email } = user;
     return (
         <tr>
             <td>{id}</td>
@@ -9,6 +9,6 @@ const {name, id, email} = user
             <td>{email}</td>
         </tr>
     );
-};
+}
 
-export default Tablerow
+export default Tablerow;
